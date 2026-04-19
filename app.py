@@ -38,11 +38,10 @@ def download_models():
     for filename, file_id in distilbert_files.items():
         filepath = f"models/distilbert_model/{filename}"
         if not os.path.exists(filepath):
-            st.info(f"Downloading {filename}...")
             gdown.download(
                 f"https://drive.google.com/uc?id={file_id}",
                 filepath,
-                quiet=False
+                quiet=True
             )
 
 # ── Text cleaning ─────────────────────────────────────────────────────────────
