@@ -21,11 +21,10 @@ def download_models():
 
     # TF-IDF model
     if not os.path.exists("models/best_tfidf_model.joblib"):
-        st.info("Downloading TF-IDF model...")
         gdown.download(
             "https://drive.google.com/uc?id=1Pq-x9rOogHbgttux2ZMnjC1RDHwsctZ8",
             "models/best_tfidf_model.joblib",
-            quiet=False
+            quiet=True
         )
 
     # DistilBERT files
