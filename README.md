@@ -104,7 +104,6 @@ Twitter-Sentiment-Analysis/
 │
 └── checkpoints/
 ├── checkpoint_1.ipynb     ← EDA and initial dataset exploration
-├── EDA.ipynb  
 └── checkpoint_2.ipynb     ← Preprocessing, sampling, and methodology
 
 ---
