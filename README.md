@@ -9,8 +9,18 @@ get more complex.
 
 ## 👉 Start here: [main_notebook.ipynb](main_notebook.ipynb)
 
-## 🌐 Live Demo
+## 🎥 2 min Project Video
+[Watch the 2-minute project pitch on YouTube](https://youtu.be/gDSnut_YDxc)
+
+> 🌐 This project is deployed as a live Streamlit web application where you can 
+> type any tweet and instantly get sentiment predictions from both models side by 
+> side
+
+## 🌐 App Live Demo
 [Try the Streamlit App here](https://twitter-sentiment-analysis-tfjzjs2ybscvcfay2tvdpx.streamlit.app/)
+
+## 🎥 App short video tutorial
+[Watch app demo on Youtube here](https://youtu.be/mMfBkPpGM_o)
 
 ---
 
@@ -82,16 +92,16 @@ This project was built in **Google Colab Pro** with an NVIDIA A100 GPU.
 
 | Package | Version |
 |---|---|
-| Python | 3.11 |
-| torch | 2.x |
-| transformers | 4.x |
-| scikit-learn | 1.x |
-| pandas | 2.x |
-| numpy | 1.x |
+| Python | 3.12.13 |
+| torch | 2.10.0+cu128 |
+| transformers | 5.0.0 |
+| scikit-learn | 1.6.1 |
+| pandas | 2.2.2 |
+| numpy | 2.0.2 |
 | streamlit | latest |
-| gdown | latest |
-| wordcloud | latest |
-| seaborn | latest |
+| gdown | 5.2.1 |
+| wordcloud | 1.9.6 |
+| seaborn | 0.13.2 |
 
 Full dependency list: [requirements.txt](requirements.txt)
 
@@ -99,13 +109,14 @@ Full dependency list: [requirements.txt](requirements.txt)
 Twitter-Sentiment-Analysis/
 │
 ├── main_notebook.ipynb        ← 👉 Final curated notebook (start here)
-├── app.py                     ← Streamlit live demo app
+├── app.py                     ← Streamlit app
 ├── requirements.txt           ← Full package list exported from Colab
 ├── .gitignore
 ├── README.md
 │
 └── checkpoints/
 ├── checkpoint_1.ipynb     ← EDA and initial dataset exploration
+├── EDA.ipynb  
 └── checkpoint_2.ipynb     ← Preprocessing, sampling, and methodology
 
 ---
@@ -125,6 +136,3 @@ Twitter-Sentiment-Analysis/
 
 *CSCE 676 Data Mining · Texas A&M University · Sai Rishitha Chittaluru*
 
----
-
-## Repo Structure
