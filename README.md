@@ -98,7 +98,6 @@ This project was built in **Google Colab Pro** with an NVIDIA A100 GPU.
 | scikit-learn | 1.6.1 |
 | pandas | 2.2.2 |
 | numpy | 2.0.2 |
-| streamlit | latest |
 | gdown | 5.2.1 |
 | wordcloud | 1.9.6 |
 | seaborn | 0.13.2 |
