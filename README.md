@@ -102,7 +102,11 @@ This project was built in **Google Colab Pro** with an NVIDIA A100 GPU.
 | wordcloud | 1.9.6 |
 | seaborn | 0.13.2 |
 
-Full dependency list: [requirements.txt](requirements.txt)
+## Requirements
+
+- **[requirements.txt](requirements.txt)** — Minimal dependencies for running the Streamlit app
+- **[requirements_colab.txt](requirements_colab.txt)** — Full Colab environment dependencies for 
+  reproducing the notebook (exported from Google Colab Pro with A100 GPU)
 
 ## Repo Structure
 Twitter-Sentiment-Analysis/
