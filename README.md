@@ -35,21 +35,6 @@ get more complex.
 
 ---
 
-## Results Summary
-
-| Model | Accuracy | Precision | Recall | F1 |
-|---|---|---|---|---|
-| TF-IDF + Logistic Regression | 0.7667 | 0.7591 | 0.7765 | 0.7677 |
-| DistilBERT (fine-tuned) | 0.8299 | 0.8291 | 0.8280 | 0.8285 |
-
-**Key finding:** DistilBERT outperforms TF-IDF by ~6 points across all metrics. 
-More importantly, DistilBERT's advantage *grows* with tweet complexity — gaining 
-+0.0479 on short tweets and +0.0764 on long tweets, nearly double the improvement. 
-This shows contextual embeddings specifically help where bag-of-words methods 
-struggle most.
-
----
-
 ## Dataset
 
 - **Name:** Sentiment140
@@ -122,6 +107,20 @@ Twitter-Sentiment-Analysis/
 ├── EDA.ipynb  
 └── checkpoint_2.ipynb     ← Preprocessing, sampling, and methodology
 
+---
+
+## Results Summary
+
+| Model | Accuracy | Precision | Recall | F1 |
+|---|---|---|---|---|
+| TF-IDF + Logistic Regression | 0.7667 | 0.7591 | 0.7765 | 0.7677 |
+| DistilBERT (fine-tuned) | 0.8299 | 0.8291 | 0.8280 | 0.8285 |
+
+**Key finding:** DistilBERT outperforms TF-IDF by ~6 points across all metrics. 
+More importantly, DistilBERT's advantage *grows* with tweet complexity — gaining 
++0.0479 on short tweets and +0.0764 on long tweets, nearly double the improvement. 
+This shows contextual embeddings (Distillbert) specifically help where bag-of-words(TFIDF) methods 
+struggle most.
 ---
 
 ## References
